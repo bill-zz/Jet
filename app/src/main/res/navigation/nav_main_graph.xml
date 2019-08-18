@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main_graph"
+    app:startDestination="@id/favoriteFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bill.jet.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.bill.jet.home.FavoriteFragment"
+        android:label="FavoriteFragment" />
+    <fragment
+        android:id="@+id/meFragment"
+        android:name="com.bill.jet.home.MeFragment"
+        android:label="MeFragment" />
+</navigation>
